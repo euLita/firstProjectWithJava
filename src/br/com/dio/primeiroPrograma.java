@@ -37,7 +37,9 @@ class Livro {
     }
 
     public void setNumPaginas(Integer numPaginas) {
-        this.numPaginas = numPaginas;
+        {
+            this.numPaginas = numPaginas;
+        }
     }
 
     @Override
